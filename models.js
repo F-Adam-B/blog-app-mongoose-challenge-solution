@@ -18,7 +18,8 @@ blogPostSchema.virtual('authorName').get(function() {
 blogPostSchema.methods.apiRepr = function() {
   return {
     id: this._id,
-    author: this.authorName,
+    author: this.author,
+    authorName: this.authorName,
     content: this.content,
     title: this.title,
     created: this.created
