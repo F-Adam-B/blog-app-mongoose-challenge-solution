@@ -2,4 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
-   
+deploy:
+  provider: heroku
+  api_key:
+    secure: mFam2GjP8cKQKrNUeSHRLUsOrv70vISKQCSQCazzca5CHohZblxPUdTNmijyzG6unulb6fvLGxwc9yeM8T3yOMgDKa2CNB9O+h3ovwnJsxeyLBY1VBj3G0PY9gakNvTRuBLmlDbl0ivE8rUzfNPkG6j3TO3GuA/1XWd/Itki2c/RT+OxUTphSBd5oeOv5bVmTIwmNBEnOZgtH065OCVe4m/OQdp7SmMJ1KFlTFWsUovmN40CHZQ0WpxUmsEkQi0PpZf+M4o6Yq2I3u2evVX7PgtVOWUt2OOW5INnbhKC1hW1ePG7PvrbBQsI5ktzt47GheT5RmOvOQkeCnvTvvgTjZvRyE4nw9c/d7BAFrxq+spH8avTVa2HKcfFDGDNRMaopFuw/lEnzP9qMoJpffFBj1VzB/p+4AwyCmt2/Q5jjeabLm6b1+lADQYRJ/8o9PKYbNFdCDp9VnHTnqv1NryQokhdLcSw/eZP8z+QV4PsoCJLPecBTk5+DXX+fRjrOWQ3CUwgTBF4MUbOIdOuXNsJaaBKms8kpNlfFbTGAX3eQ37oWgKyfRGIkWswswBFIX1YRD9/4ekhM1VAnFe762vXbwGwDPkYreplRti2dXAEPmWSvyfC9CNi4lOdUVjrzT39x3F6DYLm7WH9oathTYkLRsr8u18PRQFsXY4WidY0sXQ=
+  app: polar-plains-47652
+  on:
+    repo: F-Adam-B/blog-app-mongoose-challenge-solution
